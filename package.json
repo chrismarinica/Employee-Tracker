@@ -1,0 +1,24 @@
+{
+    "name": "employee-management-system",
+    "version": "1.0.0",
+    "description": "A CMS for managing a company's employee database.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "console.table": "^0.10.0",
+        "dotenv": "^16.4.7",
+        "inquirer": "^8.2.4",
+        "pg": "^8.11.3"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7",
+        "@types/pg": "^8.11.10",
+        "typescript": "^5.7.2"
+    }
+}
